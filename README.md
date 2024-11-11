@@ -15,11 +15,11 @@ This is a project for a car rental website. It is a project for the College Mini
 - [Car Listing Page](#car-listing-page)
 - [User Story](#user-story)
 - [Admin Page](#admin-page)
-- [Project Report](#project-report)
+<!-- - [Project Report](#project-report)
 - [License](#license)
 - [Demo](#demo)
 - [Authors](#authors)
-- [Show your support](#show-your-support)
+- [Show your support](#show-your-support)-->
 
 
 ## Introduction
@@ -100,7 +100,7 @@ This is a project for a car rental website. It is a project for the College Mini
 - Admin can delete a reservation by clicking the delete button.
 - Admin can view feedback by clicking the view button.
 
-## Project Report
+<!-- ## Project Report
 
 - The project report is stored in a folder called [report](https://github.com/Varshithvhegde/car_rental_project/raw/main/report/CarProjectFinalReport.pdf).
 - Report consists of the following:
@@ -132,7 +132,7 @@ This is a project for a car rental website. It is a project for the College Mini
 
 Give a ⭐️ if this project helped you!
 
-***
+*** -->
 
 
 
