@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="content-type" content="text/html">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/servis.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <title>CaRs | Services</title>
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+            <div class="icon">
+                <h2 class="logo">MoToRs</h2>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="index.php">HOME</a></li>
+                    <li><a href="aboutus.html">ABOUT</a></li>
+                    <li><a href="services.html">SERVICES</a></li>
+                    <li><a href="contactus.html">CONTACT</a></li>
+
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="heading">
+                <h2>Best Services</h2>
+                <h3>Explore Out Top Deals <br> From Top Rated Dealers</h4>
+            </div>
+            <div class="row">
+                <div class="services">
+                    <i class='bx bxs-registered'></i>
+                    <h4>Registration</h4>
+                    <p class="services-text">In this system user have to become a registered user to rent a car. User
+                        has to fill up his contact information like name, address, mobile number in the
+                        registration form.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate autem vel accusamus adipisci,
+                        cumque minima sunt iure quibusdam nobis et?
+                    </p>
+                    <button class="learn-more-btn">Learn More</button>
+                </div>
+                <div class="services">
+                    <i class='bx bxs-bookmark'></i>
+                    <h4>Online Booking</h4>
+                    <p class="services-text">Online booking is a great feature that gives an access to customer to
+                        book their favorite cars. Customer can directly see the information about all the cars
+                        available for them and prices.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum officia incidunt corrupti
+                        repudiandae dolor vitae quasi placeat consectetur deserunt. Culpa sequi quidem, esse dolores
+                        expedita unde dolorum quis doloremque possimus consectetur ea et delectus tenetur mollitia
+                        nesciunt odio sapiente eum eos minima adipisci nostrum labore modi id. Quos, doloremque maiores.
+                    </p>
+                    <button class="learn-more-btn">Learn More</button>
+                </div>
+                <div class="services">
+                    <i class='bx bxs-briefcase'></i>
+                    <h4>Less Paper Work</h4>
+                    <p class="services-text">By using this, it is easy to organize all the data, useful stuffs,
+                        invoices, rental agreements. </p>
+                    <button style="margin-top: 3.1rem;" href="#" class="learn-more-btn">Learn More</button>
+                </div>
+                <div class="services">
+                    <i class='bx bx-data'></i>
+                    <h4>Accurate Information</h4>
+                    <p class="services-text">This system should provide up-to-date accurate information
+                        at any time. Increase processing speed and avoid errors. </p>
+                    <button style="margin-top: 1.5rem;" href="#" class="learn-more-btn">Learn More</button>
+                </div>
+                <div class="services">
+                    <i class='bx bx-code-block'></i>
+                    <h4>Data Scheduling</h4>
+                    <p class="services-text">User can select the date of car booking .To book a car on selected
+                        date he/she has to give pick up place information and drop of place information.</p>
+                    <button style="margin-top: 1.7rem;" href="#" class="learn-more-btn">Learn More</button>
+                </div>
+                <div class="services">
+                    <i class='bx bxs-envelope'></i>
+                    <h4>Booking Confirmation By SMS & Email</h4>
+                    <p class="services-text">When your car booking is confirmed
+                        then you will get a confirmation message on your given mobile number. In this
+                        message, you will also get the amount that you paid for the booking.</p>
+                    <button href="#" class="learn-more-btn">Learn More</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- footer -->
+    <footer class="footer">
+        <div class="social">
+            <a href="https://www.facebook.com/"><i class='bx bxl-facebook'></i></a>
+            <a href="https://www.instagram.com/"><i class='bx bxl-instagram'></i></a>
+            <a href="https://www.twitter.com/"><i class='bx bxl-twitter'></i></a>
+        </div>
+        <div class="links">
+            <a href="index.php">HOME</a>
+            <a href="aboutus.html">ABOUT</a>
+            <a href="services.html">SERVICES</a>
+            <a href="contactus.html">CONTACT</a>
+        </div>
+        <div class="credit">Created by <span>MoToRs</span> | All right reserved &copy; 2023</div>
+    </footer>
+
+
+    <script>
+        const services = document.querySelectorAll('.services');
+
+        services.forEach(service => {
+            service.addEventListener('click', e => {
+                const btn = e.target.matches('.learn-more-btn');
+                const para = service.querySelector('.services-text');
+
+                if (!btn) return
+
+                para.classList.toggle('active');
+
+                console.log(para)
+            })
+        })
+
+
+    </script>
+</body>
+
+</html>
